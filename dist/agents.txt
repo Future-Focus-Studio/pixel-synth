@@ -1,0 +1,16 @@
+# Data use policy
+Allow-Training: no
+Allow-RAG: yes
+Allow-Actions: no
+
+# Default rules for all agents
+[Agent: *]
+Allow: /
+Disallow: /admin/
+Disallow: /config/
+Disallow: /tmp/
+Disallow: /logs/
+Disallow: /backup/
+Disallow: /.env
+Disallow: /wp-admin/
+Disallow: /wp-includes/

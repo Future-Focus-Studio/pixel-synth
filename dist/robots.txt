@@ -1,0 +1,10 @@
+User-agent: *
+Crawl-delay: 10
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /config/
+Disallow: /logs/
+Disallow: /backup/
+Disallow: /.env
+Disallow: /wp-admin/
+Disallow: /wp-includes/
