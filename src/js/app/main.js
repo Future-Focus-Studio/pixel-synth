@@ -229,7 +229,7 @@ if( URLparam('info') !== 0 ){
 
   var _about = document.createElement('li')
   _about.classList.add('about')
-  _about.innerHTML = "Pixel Synth is a lofi video synthesizer. Click the screen to randomize. Save link button is for sharing patches. Works with MIDI (in Chrome &amp; Opera). Press H or tap this message to hide it. <a href='https://github.com/gridwalk/pixel-synth' target='_blank'>Open Source</a>. Project by <a target='_blank' href='https://donaldhanson.net'>Donald Hanson</a>."
+  _about.innerHTML = "Pixel Synth is a lofi video synthesizer. Click the screen to randomize. Save link button is for sharing patches. Works with MIDI (in Chrome &amp; Opera). Press H or tap this message to hide it. <a href='https://github.com/Future-Focus-Studio/pixel-synth' target='_blank'>Open Source</a>. Project by <a target='_blank' href='https://donhanson.art'>Donald Hanson</a>."
   var _guiList = document.querySelector('.dg.main > ul')
   _guiList.insertBefore(_about, _guiList.firstElementChild)
 
