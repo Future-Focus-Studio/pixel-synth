@@ -23,7 +23,7 @@ var paths = {
   },
   images:   './src/img/**/*',
 	pages:    './src/html/**/*',
-	dist:     './dist'
+	dist:     './'
 }
 
 // these tasks execute in order when you run gulp
